@@ -1,6 +1,6 @@
 from collections import defaultdict
 
-# we find the generator of a group formed by F_p where p is any prime number. 
+# we find the generator of a multiplicative group formed by F*_p where p is any prime number. 
 def generate_group_elements(prime):
 	return [x%prime for x in range(1, prime)]
 
