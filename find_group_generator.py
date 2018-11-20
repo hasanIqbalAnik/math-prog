@@ -20,4 +20,5 @@ def find_all_group_gen(group_elems, prime):
 			res.append(elem)
 	return res
 
-print(find_all_group_gen(generate_group_elements(5), 5))
+print(find_all_group_gen(generate_group_elements(17), 17))
+# output [3, 5, 6, 7, 10, 11, 12, 14]
