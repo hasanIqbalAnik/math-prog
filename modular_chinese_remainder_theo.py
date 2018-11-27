@@ -32,22 +32,19 @@ M1 = M/p1
 M2 = M/p2
 
 # find group inverses of M1 and M2. 
+y1, y2, = 1, 1,
 
-
-y1, y2, temp = 1, 1, M1
 while True:
 	if (M1 * y1) % p1 == 1:
 		break
 	else:
 		y1 += 1
 
-
 while True:
 	if (M2 * y2) % p2 == 1:
 		break
 	else:
 		y2 += 1
-
 
 # after finding the group inverses, it's pretty straightforward. 
 # the answer is using CRT: x = (a1 * M1 * y1 + a2 * M2 * y2) mod M
