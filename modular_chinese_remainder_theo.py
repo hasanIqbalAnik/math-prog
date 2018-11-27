@@ -31,7 +31,7 @@ M = p1 * p2
 M1 = M/p1
 M2 = M/p2
 
-# find group inverses of M1 and M2. 
+# find inverses of M1 in group Z_p1 and M2 in group Z_p2. 
 y1, y2, = 1, 1,
 
 while True:
