@@ -40,13 +40,16 @@ while True:
 		break
 	else:
 		y1 += 1
-	
+
+
 while True:
 	if (M2 * y2) % p2 == 1:
 		break
 	else:
 		y2 += 1
+
+
 # after finding the group inverses, it's pretty straightforward. 
-# the answer x = (a1 * M1 * y1 + a2 * M2 * y2) mod M
+# the answer is using CRT: x = (a1 * M1 * y1 + a2 * M2 * y2) mod M
 
 print((a1 * M1 * y1 + a2 * M2 * y2 )%M) # correct result: A*B
