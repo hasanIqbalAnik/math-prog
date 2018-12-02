@@ -24,4 +24,4 @@ def calculate_zeta(s):
 print(calculate_zeta(-8))
 
 
-# need to fix for the numbers of the form 0 + ic. value diverges
+# need to fix for the numbers of the form 0 + ic. value diverges.
