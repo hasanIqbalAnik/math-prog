@@ -3,6 +3,7 @@ import random
 
 
 # egcd code taken from https://brilliant.org/wiki/extended-euclidean-algorithm/
+# overall ref: https://www.lri.fr/~fmartignon/documenti/systemesecurite/6-PublicKey.pdf
 def egcd(a, b):
 	x,y, u,v = 0,1, 1,0
 	while a != 0:

@@ -6,7 +6,8 @@
 * Riemann's zeta function calculation 
 * Multiply large numbers using Chinese Remainder Theorem
 * Proof of Subset Sum Equality Using Pigeonhole Principle
-
+* RSA Encryption Scheme
+* El Gamal Encryption Scheme
 
 # to-do
 * Rabin-Miller Primality Test
