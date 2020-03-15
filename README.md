@@ -8,6 +8,7 @@
 * Proof of Subset Sum Equality Using Pigeonhole Principle
 * RSA Encryption Scheme
 * El Gamal Encryption Scheme
+* 1-out-of-2 Oblivious Transfer
 
 # to-do
 * Rabin-Miller Primality Test
